@@ -18,7 +18,6 @@ with open(tfidf_path, 'rb') as file:
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
-
 @app.route('/predict', methods = ["POST", "GET"])
 def home():
     if request.method == "POST":
