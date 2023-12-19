@@ -19,16 +19,19 @@ with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
 
-@app.route('/predict', methods = ["POST"])
+@app.route('/predict', methods = ["POST", "GET"])
 def home():
-    data = request.get_json()
-    text = data['text']
+    if request.method == "POST":
+        data = request.get_json()
+        text = data['text']
 
-    transformed_text = vectorizer.transform([text])
+        transformed_text = vectorizer.transform([text])
 
-    prediction = model.predict(transformed_text.toarray())
+        prediction = model.predict(transformed_text.toarray())
 
-    return jsonify("Hello")
+        return jsonify({"response":"Hello"})
+    else:
+        return jsonify({"error": "method not allowed"})
 
 
 
