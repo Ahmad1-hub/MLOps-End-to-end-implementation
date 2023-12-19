@@ -19,7 +19,6 @@ with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
 
-
 @app.route('/', methods = ["POST"])
 def home():
     data = request.get_json()

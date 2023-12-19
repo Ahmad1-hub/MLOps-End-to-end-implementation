@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3c26d22-1211-4df4-9d93-607efe094643" name="Changes" comment="Added CI/CD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/train_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/train_model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <workItem from="1702914974886" duration="160000" />
       <workItem from="1702915204999" duration="681000" />
       <workItem from="1702916372160" duration="626000" />
-      <workItem from="1702967188616" duration="12699000" />
+      <workItem from="1702967188616" duration="12791000" />
     </task>
     <task id="LOCAL-00001" summary="trained model {tfidf, rf}">
       <option name="closed" value="true" />
@@ -102,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702999260906</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added CI/CD">
+      <option name="closed" value="true" />
+      <created>1702999470661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702999470661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
