@@ -30,10 +30,10 @@ jobs:
           
           # Heroku API key associated with provided user's email.
           # Api Key is available under your Heroku account settings.
-          heroku_api_key: 406d3eea-a923-4dae-b41e-3aca4d00e3f0
+          heroku_api_key:
           
           # Name of the heroku application to which the build is to be sent.
-          heroku_app_name: emotionprediction1
+          heroku_app_name:
 
           # (Optional, default: "./")
           # Dockerfile directory.
