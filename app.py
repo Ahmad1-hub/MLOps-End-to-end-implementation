@@ -24,13 +24,9 @@ def home():
     data = request.get_json()
     text = data['text']
 
-    #print("Data - > ",text)
-
     transformed_text = vectorizer.transform([text])
 
     prediction = model.predict(transformed_text.toarray())
-
-    #print("Prediction -> ", prediction[0])
 
     return jsonify("Hello")
 
